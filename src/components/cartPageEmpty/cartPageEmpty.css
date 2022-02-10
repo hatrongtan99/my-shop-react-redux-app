@@ -1,0 +1,30 @@
+.cart-page__empty {
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+}
+
+.cart-page__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.cart-page__empty p {
+    color: #999;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.cart-page__separate {
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px auto 10px auto;
+}
+
+.cart-page__btn__shopping {
+    padding: 10px 0;
+    width: 300px;
+    margin: auto;
+}

@@ -1,0 +1,120 @@
+.modal__header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.modal__header__menu {
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+    min-width: 350px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    animation: showSideNav 0.3s linear;
+}
+
+.modal__header__close i {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.modal__header__menu > span {
+    margin: 34px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.modal__header__navbar, 
+.modal__header__link {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.modal__header__navbar li, 
+.modal__header__link li {
+    padding: 6px 0;
+}
+
+.modal__header__navbar__click {
+    display: flex;
+    position: relative;
+}
+
+.modal__header__navbar__click i {
+    margin-top: 10px;
+    right: 60px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    position: absolute;
+}
+
+.modal__header__navbar__item {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.modal__header__navbar__item__sub {
+    list-style: none;
+    font-size: 1rem;
+    display: block;
+    animation: showNavbarItemSub 0.3s linear;
+    transform-origin: top center;
+}
+
+.modal__header__navbar__item:hover,
+.modal__header__link li:hover {
+    color: #e47307;
+    cursor: pointer;
+} 
+
+.modal__login {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 20px 0 50px 12px;
+}
+
+.modal__login i {
+    margin: 0 20px;
+    font-size: 1.2rem
+}
+
+
+@keyframes showSideNav {
+    0% {
+        transform: translateX(100%)
+    }
+    50% {
+        transform: translateX(50%)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
+
+@keyframes showNavbarItemSub {
+    0% {
+        transform: scaleY(0)
+      }
+    80% {
+        transform: scaleY(0.8)
+      }
+    100% {
+        transform: scaleY(1)
+      }
+}
+
+

@@ -1,0 +1,22 @@
+.product-image {
+    display: flex;
+}
+
+.product-image__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.product-image__list__item img {
+    height: auto;
+    width: 44px;
+    border: solid 1px #ccc;
+    margin-bottom: 8px;
+}
+
+.product-image__main img {
+    height: auto;
+    width: 100%;
+}

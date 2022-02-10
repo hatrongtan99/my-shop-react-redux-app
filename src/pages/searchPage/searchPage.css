@@ -1,0 +1,37 @@
+.search-page {
+    margin-bottom: 40px;
+}
+
+.search-page__title {
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+}
+
+.search-page__title h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.search-page__title p {
+    color: #999;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.search-page__separate {
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px auto 10px auto;
+}
+
+.search-page__result {
+    color: #999;
+}
+
+.search-page__result span {
+    color: #333;
+    font-weight: 600;
+}

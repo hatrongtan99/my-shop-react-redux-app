@@ -1,0 +1,12 @@
+export { default as Header } from './header/Header';
+export { default as Footer } from './footer/Footer';
+export { default as ProductLayout } from './productLayout/ProductLayout';
+export { default as ProductImage } from './productImage/ProductImage';
+export { default as ProductInfo } from './productInfo/ProductInfo';
+export { default as Breadcrumb } from './breadcrumb/Breadcrumb';
+export { default as Slide } from './slide/Slide';
+export { default as ModalCart } from './modalCart/ModalCart';
+export { default as CartPageEmpty } from './cartPageEmpty/CartPageEmpty';
+export { default as CartPageOccupy } from './cartPageOccupy/CartPageOccupy';
+export { default as SearchModalInput } from './searchModalInput/SearchModalInput';
+export { default as Helmet } from './helmet'

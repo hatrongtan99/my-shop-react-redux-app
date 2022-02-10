@@ -1,0 +1,80 @@
+.footer { 
+    height: auto;
+    padding: 20px 0 0 0;
+}
+
+.scm__btn > i{
+    font-size: 1.1rem;
+    padding: 0 20px 20px 20px;
+    cursor: pointer;
+}
+
+.web__info {
+    
+}
+
+.web__info__pages,
+.web__info__address ul, 
+.web__info__address__contact {
+    list-style: none;
+    padding: 0;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.web__info__pages > li{
+    padding: 6px 0;
+    color: #333;
+}
+
+.web__info__address {
+    padding-Left: 20px;
+    margin-right: 10px;
+}
+
+.web__info__address ul li {
+    padding: 4px 0;
+    font-weight: 600;
+}
+
+.web__info__address__contact {
+    font-weight: 700;
+}
+
+.web__info__address__contact span {
+    font-weight: 500;
+}
+
+.footer__copyright p{
+    color: #dbdbdb;
+    font-size: 0.7rem;
+    float: right;
+    margin-right: 20px;
+}
+
+.wrap__pay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay__info {
+    display: flex;
+    align-items:center;
+    list-style: none;
+}
+
+.pay__info__bct {
+    width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    .web__info__pages,
+    .web__info__address ul, 
+    .web__info__address__contact {
+    font-size: 0.8rem;
+    }
+}
+
+

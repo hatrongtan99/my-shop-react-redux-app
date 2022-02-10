@@ -1,0 +1,77 @@
+.header__navbar {
+    color: #6a6768;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    justify-content: center;
+    display: none;
+}
+
+.header__navbar__item {
+    position: relative;
+    padding: 0 20px;
+    list-style: none;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.header__navbar__item i {
+    position: absolute;
+    font-size: .6rem;
+    top: 10px;
+    right: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+.header__navbar__item:hover {
+    color: #e47307; 
+}
+
+.header__navbar__item:hover i {
+    transform: rotate(180deg);
+}
+
+.header__navbar__item__sub {
+    display: none;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    list-style-type: none;
+    border-top: 2px solid;
+    padding: 0;
+    transform-origin: top center;
+    animation: dropdown .3s ease-in-out;
+    background: #fff;
+}
+
+.header__navbar__item__sub > a > li {
+    padding: 4px 12px;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.header__navbar__item__sub > a > li:hover {
+    color: #e47307; 
+}
+
+.header__navbar__item:hover .header__navbar__item__sub {
+    display: block;
+}
+
+
+@keyframes dropdown {
+    0% {
+      transform: scaleY(0)
+    }
+    80% {
+      transform: scaleY(0.8)
+    }
+    100% {
+      transform: scaleY(1)
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .header__navbar {
+        display: flex;
+    }
+}
+

@@ -1,0 +1,31 @@
+.main-slide__img {
+    position: relative;
+    height: auto;
+}
+
+.main-slide__img img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.main-slide__img__control {
+    position: absolute;
+    display: flex;
+    bottom: 1%;
+    right: 1%;
+}
+.main-slide__img__item {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.main-slide__img__item span {
+    background-color: #ababab;
+    height: 5px;
+    width: 20px;
+    display: block;
+}
+
+.main-slide__img__item.active span{
+    background-color: #000;
+}
