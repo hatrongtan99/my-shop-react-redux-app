@@ -15,7 +15,7 @@
 .cart-product__item {
     display: flex;
     height: auto;
-    min-height: 140px;
+    min-height: 180px;
     border-bottom: 1px dotted #999;
     width: 100%;
     position: relative;
@@ -45,6 +45,7 @@
 
 .cart-product__info {
     margin: 16px auto;
+    padding-left: 50px;
 }
 
 .cart-product__info__title h3 {
@@ -68,8 +69,7 @@
     height: 32px;
     display: flex;
     position: absolute;
-    left: 26%;
-    bottom: 10%;
+    top: 50%;
 }
 
 .ajust-quantity input {
@@ -90,4 +90,20 @@
     position: absolute;
     right: 4%;
     bottom: 2%;
+}
+
+@media  (min-width: 768px) {
+
+    .cart-product__item {
+        min-height: 140px;
+    }
+
+    .cart-product__info {
+        padding-left: unset;
+    }
+
+    .ajust-quantity {
+        left: 26%;
+        bottom: 10%;
+    }
 }
