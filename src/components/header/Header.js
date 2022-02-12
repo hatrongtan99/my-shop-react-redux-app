@@ -49,7 +49,7 @@ const Header = () => {
         <div className='header-search-mobile d-lg-none'>
             <input type='text' placeholder='Tìm kiếm sản phẩm...' onChange={(e) => setTextSearch(e.target.value)} value={textSearch}></input>
             <div className='header-search-mobile__icon' onClick={handleTextSearch}>
-                <i className="fas fa-search"></i>
+                <Link to='/search'><i className="fas fa-search"></i></Link>
             </div>
         </div>
 
